@@ -10,22 +10,19 @@ public class Clothing extends Product implements InventoryManageable {
 
     @Override
     public void addItem(Product item) {
-        throw new UnsupportedOperationException("Un producto individual no maneja inventario.");
     }
 
     @Override
     public void deleteItem(int id) {
-        throw new UnsupportedOperationException("Un producto individual no maneja inventario.");
     }
 
     @Override
     public void listItems() {
-        throw new UnsupportedOperationException("Un producto individual no maneja inventario.");
     }
 
     @Override
     public Product findItemById(int id) {
-        throw new UnsupportedOperationException("Un producto individual no maneja inventario.");
+    return null;
     }
 
     @Override

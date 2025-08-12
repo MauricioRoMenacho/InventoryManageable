@@ -13,7 +13,7 @@ public class Main {
         inventory.addItem(c1);
         inventory.addItem(c2);
 
-        System.out.println("Listado de productos \n");
+        System.out.println("Listado de productos");
         inventory.listItems();
 
         System.out.println("\nCambiar precio por ID");
